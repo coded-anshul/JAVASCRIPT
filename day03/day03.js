@@ -51,10 +51,19 @@
 //discount.innerHTML = dc;
 
 
-var year= Number(prompt("enter the year"));
- if ((year%4==0 && year%100!=0) || (year%400==0)){
-    console.log("year is leap year");
- }
- else{
-    console.log("not a leap year")
- }
+//var year= Number(prompt("enter the year"));
+// if ((year%4==0 && year%100!=0) || (year%400==0)){
+//    console.log("year is leap year");
+// }
+// else{
+//    console.log("not a leap year")
+// }
+
+// var integer = Number(prompt("enter the integer"));
+// 
+// if (integer%2==0){
+    // console.log("the number is even");
+// }
+// else{
+    // console.log("The number is odd")
+// }
