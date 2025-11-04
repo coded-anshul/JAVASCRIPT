@@ -68,12 +68,30 @@
     // console.log("The number is odd")
 // }
 
-var Name=(prompt("enter the name"));
-var Age = Number(prompt("enter the age"));
+//var Name=(prompt("enter the name"));
+//var Age = Number(prompt("enter the age"));
+//
+//if (Age>18){
+//    console.log(Name,"You are eligible to vote");
+//}
+//else{
+//    console.log(Name,"You are not eligible to vote");
+//}
 
-if (Age>18){
-    console.log(Name,"You are eligible to vote");
+
+var a = Number(prompt("enter number a"));
+var b = Number(prompt("enter number b"));
+var c= Number(prompt("enter number c"));
+
+if (a>=b && a>=c){
+    console.log("the greatest number is",a);
+}
+else if (b>=a && b>=c){
+    console.log("the greatest number is ",b);
+}
+else if(c>=a && c>=b){
+    console.log("The greatest number is ", c);
 }
 else{
-    console.log(Name,"You are not eligible to vote");
+    console.log("ENTER AGAIN!!");
 }
