@@ -79,19 +79,34 @@
 //}
 
 
-var a = Number(prompt("enter number a"));
-var b = Number(prompt("enter number b"));
-var c= Number(prompt("enter number c"));
+//var a = Number(prompt("enter number a"));
+//var b = Number(prompt("enter number b"));
+//var c= Number(prompt("enter number c"));
+//
+//if (a>=b && a>=c){
+//    console.log("the greatest number is",a);
+//}
+//else if (b>=a && b>=c){
+//    console.log("the greatest number is ",b);
+//}
+//else if(c>=a && c>=b){
+//    console.log("The greatest number is ", c);
+//}
+//else{
+//    console.log("ENTER AGAIN!!");
+//}
 
-if (a>=b && a>=c){
-    console.log("the greatest number is",a);
+var unit = Number(prompt("enter the units consumed"));
+
+var RPU = 10;
+var amount=0;
+
+
+if (unit <=100){
+    amount=0;
+    console.log("Your total bill is ",amount);
 }
-else if (b>=a && b>=c){
-    console.log("the greatest number is ",b);
-}
-else if(c>=a && c>=b){
-    console.log("The greatest number is ", c);
-}
-else{
-    console.log("ENTER AGAIN!!");
+else if(unit>100){
+    amount= (unit*RPU)*1.18;
+    console.log("Your total bill is ", amount);
 }
