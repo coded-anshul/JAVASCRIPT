@@ -67,3 +67,13 @@
 // else{
     // console.log("The number is odd")
 // }
+
+var Name=(prompt("enter the name"));
+var Age = Number(prompt("enter the age"));
+
+if (Age>18){
+    console.log(Name,"You are eligible to vote");
+}
+else{
+    console.log(Name,"You are not eligible to vote");
+}
