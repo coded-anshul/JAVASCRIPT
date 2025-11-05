@@ -24,4 +24,12 @@
 //    console.log(i)
 //}
 
-
+//var number=Number(prompt("enter the number"));
+//
+//var sum = 0;
+//
+//for(i=0;i<=number;i++){
+//    sum=sum+i;
+//    
+//}
+//console.log(sum);
