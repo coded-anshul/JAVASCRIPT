@@ -17,3 +17,11 @@
 //for (i=1;i<=number;i++){
 //    console.log("Hello world");
 //}
+
+//var number = Number(prompt("enter the number"));
+//
+//for(i=1;i<=number;i++){
+//    console.log(i)
+//}
+
+
