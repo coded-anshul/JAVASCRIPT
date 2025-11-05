@@ -96,17 +96,17 @@
 //    console.log("ENTER AGAIN!!");
 //}
 
-var unit = Number(prompt("enter the units consumed"));
-
-var RPU = 10;
-var amount=0;
-
-
-if (unit <=100){
-    amount=0;
-    console.log("Your total bill is ",amount);
-}
-else if(unit>100){
-    amount= (unit*RPU)*1.18;
-    console.log("Your total bill is ", amount);
-}
+//var unit = Number(prompt("enter the units consumed"));
+//
+//var RPU = 10;
+//var amount=0;
+//
+//
+//if (unit <=100){
+//    amount=0;
+//    console.log("Your total bill is ",amount);
+//}
+//else if(unit>100){
+//    amount= (unit*RPU)*1.18;
+//    console.log("Your total bill is ", amount);
+//}
