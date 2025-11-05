@@ -52,3 +52,13 @@
 //    
 //};
 //
+
+
+//var num = Number(prompt("enter the numeber"));
+//
+//var isPrime = false;
+//
+//for (i=1;num%i==0;i++){
+//    var isPrime = false;
+//    break;
+//}
