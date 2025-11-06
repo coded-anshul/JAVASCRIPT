@@ -38,9 +38,9 @@
 //    console.log("not automorphic")
 //}
 
-var num = 12345;
+var num =Number(prompt("enter the number"));
+    
+while(num>10){
+    num=Math.floor(num/10);}
+console.log(num);
 
-while(num>0){
-    console.log(num);
-    num=Math.floor(num/10);
-}
