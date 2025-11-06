@@ -37,3 +37,10 @@
 //else{
 //    console.log("not automorphic")
 //}
+
+var num = 12345;
+
+while(num>0){
+    console.log(num);
+    num=Math.floor(num/10);
+}
