@@ -38,9 +38,28 @@
 //    console.log("not automorphic")
 //}
 
-var num =Number(prompt("enter the number"));
-    
-while(num>10){
-    num=Math.floor(num/10);}
-console.log(num);
+//var num =Number(prompt("enter the number"));
+//    
+//while(num>10){
+//    num=Math.floor(num/10);}
+//console.log(num);
+
+
+//switch case
+
+var a = Number(prompt("enter b/w 1-4"));
+switch(a){
+    case 1: console.log("Monday");
+    break
+    case 2: console.log("tuesday");
+    break
+    case 3: console.log("wednesday");
+    break
+    case 4: console.log("thursday");
+    break
+    default: console.log("bhaad mai ja ")
+    break
+}
+
+
 
