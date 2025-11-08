@@ -55,3 +55,59 @@
 //    }
 //    var user=prompt("do you want to continue yes/no").toLowerCase();
 //}while(user=="yes");
+
+
+//entry control loop
+//exit control loop
+
+//nested loop
+
+//process.stdout.write("*");
+//process.stdout.write("*");
+//process.stdout.write("*");
+//process.stdout.write("*");
+//process.stdout.write("*");
+//
+//
+//console.log("*");
+//console.log("*");
+//console.log("*");
+//
+
+
+//for(i=1;i<=4;i++){
+//    for(j=1;j<=6;j++){
+//        process.stdout.write("*");
+//    }
+//    console.log();
+//}
+
+//for (i=1;i<=5;i++){
+//    for(j=1;j<=i;j++){
+//        process.stdout.write("*");
+//    }
+//    console.log();
+//}
+//
+
+
+//for (i=5;i>=1;i--){
+//    for(j=1;j<=i;j++){
+//        console.log(j);
+//    }
+//    console.log();
+//}
+
+//for (i=1;i<=5;i++){
+//    for(j=1;j<=i;j++){
+//        process.stdout.write(j + "");
+//    }
+//    console.log();
+//}
+
+for (i=5;i>=1;i--){
+    for(j=1;j<=i;j++){
+        console.log(i);
+    }
+    console.log();
+}
