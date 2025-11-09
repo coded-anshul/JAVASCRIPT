@@ -105,9 +105,16 @@
 //    console.log();
 //}
 
-for (i=5;i>=1;i--){
-    for(j=1;j<=i;j++){
-        console.log(i);
-    }
-    console.log();
+//for (i=5;i>=1;i--){
+//    for(j=1;j<=i;j++){
+//        console.log(i);
+//    }
+//    console.log();
+//}
+
+
+var number = Number(prompt("enter the number "));
+
+for (i=1;i<=10;i++){
+    console.log(`${number}*${i}=`,number*i);
 }
