@@ -113,8 +113,13 @@
 //}
 
 
-var number = Number(prompt("enter the number "));
+//var number = Number(prompt("enter the number "));
+//
+//for (i=1;i<=10;i++){
+//    console.log(`${number}*${i}=`,number*i);
+//}
 
-for (i=1;i<=10;i++){
-    console.log(`${number}*${i}=`,number*i);
-}
+var a = Number(prompt("enter the number "));
+var b = Number(prompt("enter the number"));
+
+console.log(Math.pow(a,b));
