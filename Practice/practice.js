@@ -54,26 +54,44 @@
 //console.log(result);
 
 
-var ask=prompt("ask circle , rectangle or triangle").toLowerCase();
-switch(ask){
-    case "circle":
-        var radius = parseInt(prompt("enter the radius"));
-        var area = 2*3.14*radius;
-        console.log(area);
-        break
+//var ask=prompt("ask circle , rectangle or triangle").toLowerCase();
+//switch(ask){
+//    case "circle":
+//        var radius = parseInt(prompt("enter the radius"));
+//        var area = 2*3.14*radius;
+//        console.log(area);
+//        break
+//
+//    case "rectangle":
+//        var length = parseInt(prompt("enter the length"));
+//        var breadth = parseInt(prompt("enter the breadth"));
+//        var area = length*breadth;
+//        console.log(area);
+//        break
+//
+//    case "triangle":
+//        var side=parseInt(prompt("enter the side"));
+//        var area= (3/4)*side*side;
+//        console.log(area);
+//        break
+//    default:
+//        console.log("invalid input");
+//}
 
-    case "rectangle":
-        var length = parseInt(prompt("enter the length"));
-        var breadth = parseInt(prompt("enter the breadth"));
-        var area = length*breadth;
-        console.log(area);
-        break
 
-    case "triangle":
-        var side=parseInt(prompt("enter the side"));
-        var area= (3/4)*side*side;
-        console.log(area);
-        break
-    default:
-        console.log("invalid input");
-}
+//var months = Number(prompt("enter the month number"));
+//var year = Number(prompt("enter the year"));
+//
+//if (months== 1 || months == 3 || months==5 || months ==7 || months == 8 || months == 10 || months == 12){
+//    console.log("31 Days");
+//}
+//else if (months == 4 || months == 6 || months == 9 || months == 11){
+//    console.log("30 Days");
+//}
+//else if (months==2){
+//    if(year%4==0 && year%100 !=0 || year%400==0){
+//        console.log("29 Days");}
+//    else{
+//        console.log("28 Days")
+//    }
+//}
