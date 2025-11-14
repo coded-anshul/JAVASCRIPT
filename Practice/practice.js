@@ -39,3 +39,16 @@
 //else{
 //    console.log("not a abundant number");
 //}
+
+
+//var number= Number(prompt("enter the number"));
+//var result="";
+//var a=0;
+//var b=1;
+//for (i=1;i<=number;i++){
+//    result+=a + " ";
+//    let c= a+b;
+//    a=b;
+//    b=c;
+//}
+//console.log(result);
