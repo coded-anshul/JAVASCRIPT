@@ -52,3 +52,28 @@
 //    b=c;
 //}
 //console.log(result);
+
+
+var ask=prompt("ask circle , rectangle or triangle").toLowerCase();
+switch(ask){
+    case "circle":
+        var radius = parseInt(prompt("enter the radius"));
+        var area = 2*3.14*radius;
+        console.log(area);
+        break
+
+    case "rectangle":
+        var length = parseInt(prompt("enter the length"));
+        var breadth = parseInt(prompt("enter the breadth"));
+        var area = length*breadth;
+        console.log(area);
+        break
+
+    case "triangle":
+        var side=parseInt(prompt("enter the side"));
+        var area= (3/4)*side*side;
+        console.log(area);
+        break
+    default:
+        console.log("invalid input");
+}
