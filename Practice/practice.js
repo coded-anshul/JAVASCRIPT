@@ -13,3 +13,15 @@
 //let result = gcd(a, b);
 //console.log("GCD / HCF is: " + result);
 //alert("GCD / HCF is: " + result);
+
+//var number = Number(prompt("enter the number"));
+//
+//
+//var root= Math.sqrt(number)
+//if (Number.isInteger(root)){
+//    console.log("perfect square");
+//}
+//else{
+//    console.log("not a perfect square");
+//}
+//
