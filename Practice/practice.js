@@ -25,3 +25,17 @@
 //    console.log("not a perfect square");
 //}
 //
+
+
+//var number = Number(prompt("enter the number"));
+//var sum = 0;
+//for (i=1;i<=number;i++){
+//    if (number%i===0){
+//        sum=sum+i;}   
+//}
+//if (sum>number){
+//    console.log("abundant Number");
+//}
+//else{
+//    console.log("not a abundant number");
+//}
